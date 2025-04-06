@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EaglercraftX</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: black;
+    }
+    #gameCanvas {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="gameCanvas"></canvas>
+  <script src="classes.js"></script>
+  <script>
+    // Initialize EaglercraftX to run on the canvas
+    EaglercraftX({ canvas: document.getElementById('gameCanvas') });
+  </script>
+</body>
+</html>
